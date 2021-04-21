@@ -8,12 +8,17 @@ h1 {
   width: 200px;
   background-color: yellow;
   border-radius: 50%;
-  margin-top: 300px;
+  margin-top: 130px;
   padding-top: 200px;
   padding-left: 100px;
   padding-right: 100px;
   margin-left: auto;
   margin-right: auto;
+
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
 
   animation-name: shine;
   animation-duration: 18s;
@@ -22,21 +27,30 @@ h1 {
 @keyframes shine {
   0% {
     background-color: skyblue;
-    left: 0px;
+    /* left: 0px; */
+    top: 400px;
   }
   50% {
     background-color: rgb(234, 235, 171);
-    left: 200px;
+    /* left: 200px; */
   }
   100% {
     background-color: yellow;
-    left: 0px;
+    /* left: 0px; */
   }
 }
 
 #grass {
 background-color: springgreen;
-margin-top: 50px;
-padding-top: 20px;
-padding-bottom: 20px;
+margin-top: 550px;
+padding-top: 200px;
+padding-bottom: 200px;
+padding-right: 400px;
+padding-left: 400px;
+
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+
 }
