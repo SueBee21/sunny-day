@@ -1,6 +1,4 @@
-/* body {
-  background-color: lightskyblue;
-} */
+
 h1 {
   display: block;
   text-align: center;
@@ -9,16 +7,14 @@ h1 {
   background-color: yellow;
   border-radius: 50%;
   margin-top: 130px;
-  padding-top: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 70px;
   margin-left: auto;
   margin-right: auto;
 
   position: relative;
   left: 0px;
   top: 0px;
-  z-index: -2;
+  z-index: 2;
 
   animation-name: shine;
   animation-duration: 18s;
@@ -38,19 +34,4 @@ h1 {
     background-color: yellow;
     /* left: 0px; */
   }
-}
-
-#grass {
-background-color: springgreen;
-margin-top: 550px;
-padding-top: 200px;
-padding-bottom: 200px;
-padding-right: 400px;
-padding-left: 400px;
-
-position: absolute;
-left: 0px;
-top: 0px;
-z-index: -1;
-
 }
