@@ -1,4 +1,8 @@
-
+body {
+  padding:0;
+  margin:0;
+  background-color: blue;
+}
 h1 {
   display: block;
   text-align: center;
